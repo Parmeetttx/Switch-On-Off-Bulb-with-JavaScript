@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    background-color: antiquewhite;
+}
+
+.bulb-outer{
+    text-align: center;
+}
+
+.img-blub{
+    height: 350px;
+}
+
+.button-box{
+    padding: 1rem;
+}
+
+.button-box button{
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    box-shadow: #0000003f 2.95px 2.95px 5.6px ,
+                inset #ffffff65 1.95px 1.95px 5.6px;
+}
+
+.button-box button:active{
+    transform: scale(0.9);
+}
+
+.button-box button:nth-child(1){ background-color: bisque;}
+.button-box button:nth-child(2){ background-color: tan;}
+.button-box button:nth-child(3){ background-color: pink;}
