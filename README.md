@@ -1,2 +1,3 @@
 # Switch-On-Off-Bulb-with-JavaScript
-Switch On Off Bulb with JavaScript | Button Toggle
+Learn to make Switch On Off Bulb using HTML CSS and JavaScript | Button Toggle
+
